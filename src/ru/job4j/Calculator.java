@@ -14,6 +14,16 @@ public class Calculator {
         int y = 1 / x;
         return y;
     }
+    /**
+    *перегрузка методов
+     */
+    public double add(double first, double second) {
+        return first + second;
+    }
+
+    public double add(double first, double second, double third) {
+        return first + second + third;
+    }
 
     public static void main(String[] args) {
         Calculator.plus(1, 2);
